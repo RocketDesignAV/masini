@@ -1,0 +1,52 @@
+.contactoContenedor {
+    color: white;
+}
+.olaFooter {
+    background: black;
+}
+.olaFooter img {
+    width: 100%;
+}
+.contactoContent {
+    background: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.insta-svg {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 3px;
+}
+
+.contenedorRedesForm {
+    align-items: center;
+}
+
+
+.footerEnd {
+    background: black;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 1em 0;
+}
+
+.rocketImg {
+    max-width: 826px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+}
+
+
+.text-agradecimiento {
+    font: 18px;
+}

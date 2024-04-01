@@ -1,0 +1,128 @@
+
+
+header {
+    background-image: url('/img/bgbk.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+.navDivi {
+    z-index: 999999;
+    background: black;
+    padding: 0.8em 5em;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 175px);
+}
+
+
+.manuNav {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+
+
+.divImg img {
+    width: 142px;
+}
+
+nav ul {
+    margin: 0;
+}
+
+.claseBgHamburger {
+    background: #000; 
+}
+/*
+.ulMenuMain li a:hover {
+    color: #d7c154;
+}
+*/
+.banner {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+.textBanner {
+    color: white;
+    width: 45%;
+}
+
+.textBanner h1 {
+    font-size: 30px;
+    line-height: 1.2em;
+    margin-bottom: 0.5em;
+    font-weight:900;
+}
+.textBanner p {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.5em;
+}
+.bannerImg {
+    width: 45%;
+    background: red;
+}
+.textBanner button{
+    background: #d7c154;
+    border-radius: 2em;
+    padding: 0.5em 1em;
+}
+
+.btnBanner {
+    display: block;
+    width: 25%;
+    border-radius: 1.2em;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+}
+
+
+@media screen and (max-width:1024px){
+    .navDivi {
+        flex-direction: row-reverse;
+        padding: 0;
+        background: black;
+    }
+    .divImg img {
+        width: 130px;
+    }
+    .ulMenuMain {
+        background: black;
+        width: 100%;
+      }
+    .ulMenuMain li a {
+        padding: 2em 0;
+    }
+    
+
+}
+
+@media screen and (max-width:600px){
+    .divImg img {
+        width: 100px;
+    }
+}
+
+
+.divImg img {
+    margin-right: 20px;
+}
+  
