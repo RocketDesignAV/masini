@@ -5,7 +5,7 @@ const Whatsapp = () => {
   const mensaje = `Hola, te escribo desde la pagina de GC Contenidos. Quiero solicitar más información.`
   return (
     <div className='fixed btnWhatsapp'> 
-        <a href={`https://wa.me/541132309706?text=${mensaje}`} target='_blank'>mi whatsapp</a>
+        <a href={`https://wa.me/541166266220?text=${mensaje}`} target='_blank'>mi whatsapp</a>
       </div>
   )
 }
